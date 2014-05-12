@@ -27,6 +27,8 @@
 		BDAC0D2A17F42F4400A58451 /* SMPost.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAC0D2817F42F4400A58451 /* SMPost.m */; };
 		BDAC0D2C17F4322800A58451 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAC0D2B17F4322800A58451 /* MobileCoreServices.framework */; };
 		BDAC0D2E17F4322F00A58451 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAC0D2D17F4322F00A58451 /* SystemConfiguration.framework */; };
+		D37A339E1920AA2D0077507A /* SMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37A339C1920AA2D0077507A /* SMLoginViewController.m */; };
+		D37A339F1920AA2D0077507A /* SMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37A339D1920AA2D0077507A /* SMLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,9 @@
 		BDAC0D2817F42F4400A58451 /* SMPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPost.m; sourceTree = "<group>"; };
 		BDAC0D2B17F4322800A58451 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		BDAC0D2D17F4322F00A58451 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D37A339B1920AA2D0077507A /* SMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLoginViewController.h; sourceTree = "<group>"; };
+		D37A339C1920AA2D0077507A /* SMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLoginViewController.m; sourceTree = "<group>"; };
+		D37A339D1920AA2D0077507A /* SMLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMLoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +143,9 @@
 				BDAC0D0417F42EC700A58451 /* SMMasterViewController.m */,
 				BDAC0D0617F42EC700A58451 /* SMDetailViewController.h */,
 				BDAC0D0717F42EC700A58451 /* SMDetailViewController.m */,
+				D37A339B1920AA2D0077507A /* SMLoginViewController.h */,
+				D37A339C1920AA2D0077507A /* SMLoginViewController.m */,
+				D37A339D1920AA2D0077507A /* SMLoginViewController.xib */,
 				BDAC0D0917F42EC700A58451 /* Images.xcassets */,
 				BDAC0CF517F42EC700A58451 /* Supporting Files */,
 			);
@@ -263,6 +271,7 @@
 			files = (
 				BDAC0D0A17F42EC700A58451 /* Images.xcassets in Resources */,
 				BDAC0CF917F42EC700A58451 /* InfoPlist.strings in Resources */,
+				D37A339F1920AA2D0077507A /* SMLoginViewController.xib in Resources */,
 				BDAC0D0217F42EC700A58451 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +295,7 @@
 				BDAC0D0817F42EC700A58451 /* SMDetailViewController.m in Sources */,
 				BDAC0CFB17F42EC700A58451 /* main.m in Sources */,
 				BDAC0D0517F42EC700A58451 /* SMMasterViewController.m in Sources */,
+				D37A339E1920AA2D0077507A /* SMLoginViewController.m in Sources */,
 				BDAC0D2917F42F4400A58451 /* SMPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
